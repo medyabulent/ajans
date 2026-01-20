@@ -11,6 +11,12 @@
 </head>
 <body>
 
+    <button id="themeToggle" class="theme-switch" aria-label="Toggle Dark Mode">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </button>
+
     <nav class="lang-switch">
         <button class="lang-btn active" data-lang="en">EN</button>
         <button class="lang-btn" data-lang="tr">TR</button>
@@ -22,12 +28,14 @@
         <header class="header fade-in">
             <div class="header-left">
                 <h1 class="logo">
-                    <img id="brand-logo" src="logo/logoEN.png" alt="Medya Bülent" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block'">
-                    <span class="logo-placeholder-fallback" style="display:none;"></span>
+                    <a href="https://medyabulent.github.io/ajans/" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+                        <img id="brand-logo" src="logo/logoEN.png" alt="Medya Bülent" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block'">
+                        <span class="logo-placeholder-fallback" style="display:none;"></span>
+                    </a>
                 </h1>
             </div>
             <div class="header-right">
-                <p class="slogan" data-i18n="slogan">Türkiye's Best Media Agency</p>
+                <p class="slogan" data-i18n="slogan">Türkİye's Best Media Agency</p>
                 <p class="disclaimer" data-i18n="disclaimer">(According to Board Decision</p>
             </div>
         </header>
@@ -42,16 +50,16 @@
 
         <section class="philosophy fade-in delay-2">
             <div class="col">
-                <h3 data-i18n="p1Title">01. No Algorithms</h3>
+                <h3 data-i18n="p1Title">01. From Human, To Human</h3>
                 <p data-i18n="p1Text">Curated by a human with impeccable, albeit specific, taste. No AI, no engagement traps.</p>
             </div>
             <div class="col">
-                <h3 data-i18n="p2Title">02. Zero Noise</h3>
-                <p data-i18n="p2Text">I filter through thousands of clips. Only the ones that elicit a genuine laugh make the cut.</p>
+                <h3 data-i18n="p2Title">02. "Real" Reels</h3>
+                <p data-i18n="p2Text">Only "real" videos from countless clips.</p>
             </div>
             <div class="col">
-                <h3 data-i18n="p3Title">03. Sunday Drop</h3>
-                <p data-i18n="p3Text">Arrives in your inbox every Sunday. The perfect end to your week.</p>
+                <h3 data-i18n="p3Title">03. At Unexpected Moments</h3>
+                <p data-i18n="p3Text">It could be in your inbox at any moment. Maybe it makes your worst day your best.</p>
             </div>
         </section>
 
@@ -66,18 +74,32 @@
             </div>
             <ul class="archive-list">
                 <li>
-                    <span class="date">JAN 14</span>
-                    <span class="title" data-i18n="issue1">"The Cat That Defied Physics"</span>
-                </li>
-                <li>
-                    <span class="date">JAN 07</span>
-                    <span class="title" data-i18n="issue2">"Corporate Zoom Fails: Vol. 4"</span>
-                </li>
-                <li>
-                    <span class="date">DEC 31</span>
-                    <span class="title" data-i18n="issue3">"New Year, Same Chaos"</span>
+                    <span class="date" data-i18n="date1">JAN 17</span>
+                    <span class="title" data-i18n="issue1">A story begins...</span>
                 </li>
             </ul>
+        </section>
+
+        <section class="hall-of-fame fade-in delay-3">
+            <h2 class="hof-title" data-i18n="hofTitle">The Hall of Fame</h2>
+            <div class="hof-grid">
+                <!-- Example Items (Placeholders) -->
+                <div class="hof-item">
+                    <div class="hof-overlay">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="hof-item">
+                     <div class="hof-overlay">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="hof-item">
+                     <div class="hof-overlay">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <footer class="fade-in delay-3">

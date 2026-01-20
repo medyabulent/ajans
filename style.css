@@ -1,10 +1,20 @@
 :root {
-    --bg-color: #F8F5E6; /* "Bone" - American Psycho Card */
+    --bg-color: #F8F5E6; /* Bone */
     --text-color: #1a1a1a;
     --accent-color: #333;
+    --border-color: #111;
+    --secondary-text: #555;
     --font-serif: 'Playfair Display', 'Times New Roman', serif;
     --font-display: 'Cinzel', serif;
     --font-sans: 'Inter', sans-serif;
+}
+
+[data-theme="dark"] {
+    --bg-color: #121212; /* Rich Charcoal */
+    --text-color: #E0D6C2; /* Pale Gold / Bone White */
+    --accent-color: #D4AF37; /* Gold Accent */
+    --border-color: #D4AF37;
+    --secondary-text: #aaa;
 }
 
 * {
@@ -22,7 +32,7 @@ body {
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
-    transition: direction 0.3s ease; /* For RTL support */
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 /* Language Selector */
@@ -82,7 +92,7 @@ body {
     width: 100%;
     margin-bottom: 5rem;
     padding-bottom: 2rem;
-    border-bottom: 2px solid #111; /* Strong line to separate header */
+    border-bottom: 2px solid var(--border-color);
 }
 
 .header-left {
@@ -104,7 +114,7 @@ body {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     line-height: 1;
-    color: #111;
+    color: var(--text-color);
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -324,3 +334,67 @@ body {
     .headline { font-size: 2.2rem; }
     .container { padding: 2rem 1.5rem; }
 }
+/* DARK MODE EXTRAS */
+[data-theme='dark'] .logo-img {
+    filter: invert(1) brightness(0.9);
+}
+
+.theme-switch {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    z-index: 1000;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-color);
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+.theme-switch:hover { opacity: 1; }
+
+/* HALL OF FAME */
+.hall-of-fame {
+    margin: 5rem 0;
+    border-top: 1px solid var(--border-color);
+    padding-top: 3rem;
+}
+.hof-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+.hof-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+.hof-item {
+    aspect-ratio: 9/16;
+    background: #000;
+    position: relative;
+    border: 1px solid var(--border-color);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+.hof-item:hover {
+    transform: scale(1.02);
+    border-color: var(--accent-color);
+}
+.hof-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    color: #fff;
+    font-size: 0.75rem;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.hof-item:hover .hof-overlay { opacity: 1; }
+

@@ -5,84 +5,92 @@ document.addEventListener('DOMContentLoaded', () => {
             slogan: "Türkiye's Best Media Agency",
             disclaimer: "(According to Board Decision",
             headline: "The Art of the Scroll.",
-            subHeadline: "I watch the chaos so you don't have to.<br>A strictly curated weekly digest of the internet's most amusing ephemeral cinema.",
-            p1Title: "01. No Algorithms",
+            subHeadline: "Don't get tired, we'll watch.<br>The only address you can trust for Reels.",
+            p1Title: "01. From Human, To Human",
             p1Text: "Curated by a human with impeccable, albeit specific, taste. No AI, no engagement traps.",
-            p2Title: "02. Zero Noise",
-            p2Text: "I filter through thousands of clips. Only the ones that elicit a genuine laugh make the cut.",
-            p3Title: "03. Sunday Drop",
-            p3Text: "Arrives in your inbox every Sunday. The perfect end to your week.",
+            p2Title: "02. \"Real\" Reels",
+            p2Text: "Only \"real\" videos from countless clips.",
+            p3Title: "03. At Unexpected Moments",
+            p3Text: "It could be in your inbox at any moment. Maybe it makes your worst day your best.",
             emailPlaceholder: "YOUR EMAIL ADDRESS",
-            subscribeBtn: "SUBSCRIBE",
+            subscribeBtn: "JOIN THE LIST",
             comingSoon: "Going Public Soon",
             recentIssues: "RECENT ISSUES",
-            issue1: '"The Cat That Defied Physics"',
-            issue2: '"Corporate Zoom Fails: Vol. 4"',
-            issue3: '"New Year, Same Chaos"',
-            successMsg: "You are on the list, <strong>{email}</strong>.<br>Watch your inbox this Sunday.",
+            issue1: "The beginning of a story...",
+            issue2: '"-"',
+            issue3: '"-"',
+            date1: "JAN 17",
+            hofTitle: "The Hall of Fame",
+            successMsg: "You've been added to the list, <strong>{email}</strong>.<br> Check your inbox every now and then.",
             errorMsg: "Something went wrong. Please try again."
         },
         tr: {
             slogan: "Türkiye'nin En İyi Medya Ajansı",
             disclaimer: "(Yönetim Kurulu Kararıyla",
             headline: "Kaydırma Sanatı.",
-            subHeadline: "Kaosu ben izliyorum, siz yorulmayın.<br>İnternetin en eğlenceli geçici sinemasının titizlikle hazırlanmış haftalık özeti.",
-            p1Title: "01. Algoritma Yok",
+            subHeadline: "Siz yorulmayın, biz izleriz.<br>Reels konusunda güvenebilecğiniz tek adres.",
+            p1Title: "01. İnsandan, İnsana",
             p1Text: "Kusursuz ama kendine has bir zevke sahip bir insan tarafından seçildi. Yapay zeka yok, etkileşim tuzağı yok.",
-            p2Title: "02. Gürültü Yok",
-            p2Text: "Binlerce videoyu eliyorum. Sadece gerçekten güldürenler seçimi geçer.",
-            p3Title: "03. Pazar Bülteni",
-            p3Text: "Her Pazar gelen kutunuzda. Haftayı bitirmenin mükemmel yolu.",
+            p2Title: "02. \"Harbi\" Reelslar",
+            p2Text: "Sayısız video arasından sadece \"harbi\" videolar.",
+            p3Title: "03. Beklenmedik Anlarda",
+            p3Text: "Her an posta kutunuzda olabilir. Belki de en kötü gününüzü en iyi yapar.",
             emailPlaceholder: "E-POSTA ADRESİNİZ",
-            subscribeBtn: "ABONE OL",
+            subscribeBtn: "LİSTEYE GİR",
             comingSoon: "Yakında Yayındayız",
             recentIssues: "SON SAYILAR",
-            issue1: '"Fiziğe Meydan Okuyan Kedi"',
-            issue2: '"Kurumsal Zoom Hataları: Cilt 4"',
-            issue3: '"Yeni Yıl, Aynı Kaos"',
-            successMsg: "Listeye eklendiniz, <strong>{email}</strong>.<br>Pazar günü gelen kutunuzu kontrol edin.",
+            issue1: '"Bir hikayenin başlangıcı..."',
+            issue2: '"-"',
+            issue3: '"-"',
+            date1: "17 OCAK",
+            hofTitle: "Şöhretler Geçidi",
+            successMsg: "Listeye eklendiniz, <strong>{email}</strong>.<br> Arada bi' gelen kutunuza bakın.",
             errorMsg: "Bir şeyler ters gitti. Lütfen tekrar deneyin."
         },
         ar: {
             slogan: "أفضل وكالة إعلامية في تركيا",
             disclaimer: "(وفقاً لقرار مجلس الإدارة",
             headline: "فن التمرير.",
-            subHeadline: "أشاهد الفوضى حتى لا تضطر لذلك.<br>ملخص أسبوعي منسق بدقة لأكثر المقاطع تسلية على الإنترنت.",
-            p1Title: "01. لا خوارزميات",
+            subHeadline: "لا تتعب، نحن سنشاهد.<br>العنوان الوحيد الذي يمكنك الوثوق به للمقاطع (Reels).",
+            p1Title: "01. من إنسان، إلى إنسان",
             p1Text: "منسقة من قبل إنسان ذو ذوق رفيع، وإن كان محدداً. لا ذكاء اصطناعي، لا مصائد تفاعل.",
-            p2Title: "02. بلا ضجيج",
-            p2Text: "أقوم بتصفية آلاف المقاطع. فقط تلك التي تثير ضحكة حقيقية هي التي تنجح.",
-            p3Title: "03. نشرة الأحد",
-            p3Text: "تصل إلى صندوق بريدك كل أحد. النهاية المثالية لأسبوعك.",
+            p2Title: "02. مقاطع \"حقيقية\"",
+            p2Text: "فقط الفيديوهات \"الحقيقية\" من بين عدد لا يحصى من المقاطع.",
+            p3Title: "03. في لحظات غير متوقعة",
+            p3Text: "قد تكون في صندوق بريدك في أي لحظة. ربما تجعل أسوأ يوم لك هو الأفضل.",
             emailPlaceholder: "عنوان بريدك الإلكتروني",
-            subscribeBtn: "اشترك",
+            subscribeBtn: "انضم إلى القائمة",
             comingSoon: "سينطلق قريباً",
             recentIssues: "الإصدارات الأخيرة",
-            issue1: '"القطة التي تحدت الفيزياء"',
-            issue2: '"إخفاقات زووم للشركات: المجلد 4"',
-            issue3: '"عام جديد، نفس الفوضى"',
-            successMsg: "أنت الآن في القائمة، <strong>{email}</strong>.<br>راقب بريدك الوارد هذا الأحد.",
+            issue1: "بداية قصة...",
+            issue2: '"-"',
+            issue3: '"-"',
+            date1: "17 يناير",
+            hofTitle: "قاعة المشاهير",
+            successMsg: "تمت إضافتك إلى القائمة، <strong>{email}</strong>.<br> تحقق من بريدك الوارد من حين لآخر.",
             errorMsg: "حدث خطأ ما. يرجى المحاولة مرة أخرى."
         },
         az: {
             slogan: "Türkiyənin Ən Yaxşı Media Agentliyi",
             disclaimer: "(İdarə Heyətinin Qərarına Əsasən",
             headline: "Sürüşdürmə Sənəti.",
-            subHeadline: "Xaosu mən izləyirəm, siz yorulmayın.<br>İnternetin ən əyləncəli videolarının həftəlik xüsusi seçimi.",
-            p1Title: "01. Alqoritm Yoxdur",
+            subHeadline: "Siz yorulmayın, biz izləyərik.<br>Reels mövzusunda etibar edə biləcəyiniz tək ünvan.",
+            p1Title: "01. İnsandan, İnsana",
             p1Text: "Qüsursuz, lakin özünəməxsus zövqü olan bir insan tərəfindən seçilib. Sünii intellekt yoxdur.",
-            p2Title: "02. Səs-küy Yoxdur",
-            p2Text: "Minlərlə videonu ələkdən keçirirəm. Yalnız həqiqətən güldürənlər seçilir.",
-            p3Title: "03. Bazar Buraxılışı",
-            p3Text: "Hər bazar elektron poçtunuzda. Həftəni bitirmək üçün mükəmməl yol.",
+            p2Title: "02. \"Əsl\" Reels-lər",
+            p2Text: "Sayısız video arasından yalnız \"əsl\" videolar.",
+            p3Title: "03. Gözlənilməz Anlarda",
+            p3Text: "Hər an poçt qutunuzda ola bilər. Bəlkə də ən pis gününüzü ən yaxşı edər.",
             emailPlaceholder: "E-POÇT ÜNVANINIZ",
-            subscribeBtn: "ABUNƏ OL",
+            subscribeBtn: "SİYAHIYA QOŞUL",
             comingSoon: "Tezliklə Xidmətinizdə",
             recentIssues: "SON SAYLAR",
-            issue1: '"Fizikaya Meydan Oxuyan Pişik"',
-            issue2: '"Korporativ Zoom Səhvləri: Cild 4"',
-            issue3: '"Yeni İl, Eyni Xaos"',
-            successMsg: "Siyahıdasınız, <strong>{email}</strong>.<br>Bazar günü gələnlər qutusunu yoxlayın.",
+            issue1: "Bir hekayənin başlanğıcı...",
+            issue2: '"-"',
+            issue3: '"-"',
+            date1: "17 YAN",
+            hofTitle: "Şöhrət Zalı",
+            successMsg: "Siyahıya əlavə olundunuz, <strong>{email}</strong>.<br> Arada bir gələn qutunuza baxın.",
             errorMsg: "Nəsə səhv getdi. Zəhmət olmasa yenidən cəhd edin."
         }
     };
@@ -155,3 +163,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+    // --- THEME TOGGLE LOGIC ---
+    const themeBtn = document.getElementById('themeToggle');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    // Check saved theme or system preference
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+
+    themeBtn.addEventListener('click', () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+    });
+
