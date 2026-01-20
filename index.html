@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medya Bülent | Curated Reels</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="lang-switch">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="tr">TR</button>
+        <button class="lang-btn" data-lang="ar">AR</button>
+        <button class="lang-btn" data-lang="az">AZ</button>
+    </nav>
+
+    <main class="container">
+        <header class="header fade-in">
+            <div class="header-left">
+                <h1 class="logo">
+                    <img id="brand-logo" src="logo/logoEN.png" alt="Medya Bülent" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block'">
+                    <span class="logo-placeholder-fallback" style="display:none;"></span>
+                </h1>
+            </div>
+            <div class="header-right">
+                <p class="slogan" data-i18n="slogan">Türkiye's Best Media Agency</p>
+                <p class="disclaimer" data-i18n="disclaimer">(According to Board Decision</p>
+            </div>
+        </header>
+
+        <section class="hero fade-in delay-1">
+            <h2 class="headline" data-i18n="headline">The Art of the Scroll.</h2>
+            <p class="sub-headline" data-i18n="subHeadline">
+                I watch the chaos so you don't have to.<br>
+                A strictly curated weekly digest of the internet's most amusing ephemeral cinema.
+            </p>
+        </section>
+
+        <section class="philosophy fade-in delay-2">
+            <div class="col">
+                <h3 data-i18n="p1Title">01. No Algorithms</h3>
+                <p data-i18n="p1Text">Curated by a human with impeccable, albeit specific, taste. No AI, no engagement traps.</p>
+            </div>
+            <div class="col">
+                <h3 data-i18n="p2Title">02. Zero Noise</h3>
+                <p data-i18n="p2Text">I filter through thousands of clips. Only the ones that elicit a genuine laugh make the cut.</p>
+            </div>
+            <div class="col">
+                <h3 data-i18n="p3Title">03. Sunday Drop</h3>
+                <p data-i18n="p3Text">Arrives in your inbox every Sunday. The perfect end to your week.</p>
+            </div>
+        </section>
+
+        <section class="signup-section fade-in delay-2">
+            <h2 class="coming-soon" data-i18n="comingSoon">Going Public Soon</h2>
+        </section>
+
+        <section class="archive fade-in delay-3">
+            <div class="archive-header">
+                <span data-i18n="recentIssues">RECENT ISSUES</span>
+                <span class="line"></span>
+            </div>
+            <ul class="archive-list">
+                <li>
+                    <span class="date">JAN 14</span>
+                    <span class="title" data-i18n="issue1">"The Cat That Defied Physics"</span>
+                </li>
+                <li>
+                    <span class="date">JAN 07</span>
+                    <span class="title" data-i18n="issue2">"Corporate Zoom Fails: Vol. 4"</span>
+                </li>
+                <li>
+                    <span class="date">DEC 31</span>
+                    <span class="title" data-i18n="issue3">"New Year, Same Chaos"</span>
+                </li>
+            </ul>
+        </section>
+
+        <footer class="fade-in delay-3">
+            <p class="copyright">&copy; 2026 <img class="logo-img sm" src="logo/logoEN.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block'"> <span class="logo-placeholder-fallback sm" style="display:none;"></span> Medya Bülent. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <div class="noise-overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>
